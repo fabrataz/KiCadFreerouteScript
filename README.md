@@ -16,7 +16,8 @@ Setup:
 
 Place the freeroute.py file in ~/Library/Preferences/kicad/scripting/plugins
 
-Place FreeRouting.jar (I use this version 38) in ~/Library/Preferences/kicad
+Place freeRouting.jar (*) in  ~/Library/Preferences/kicad
+(*) I use the version from LayoutEditor Package as explained at https://freerouting.org/freerouting/using-with-kicad
 
 In Pcbnew, under Tools -> External Plugins there should now be a Freeroute entry (If not, click the “Refresh Plugins” entry and try again).
 
