@@ -1,6 +1,8 @@
 # KiCadFreerouteScript
 Script to launch Freeroute from Kicad on MacOS (tested on Mojave with KiCad 5.1.0-0)
+
 Slightly adapted from the work of https://forum.kicad.info/u/izzy84075 (see https://forum.kicad.info/t/freerouting-launcher/14708)
+
 Original Source code at https://bitbucket.org/izzy84075/kicadfreeroutescript/src/master/freeroute.py?fileviewer=file-view-default
 
 How to Use:
