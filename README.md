@@ -28,7 +28,9 @@ Now, the workflow for using this:
 
 Export DSN (File -> Export -> Specctra DSN…) using the default filename for your PCB (board.kicad_pcb would be board.dsn, for example).
 
-Click the Freeroute button/tool entry. This should launch the usual Freeroute GUI, with your design already loaded. NOTE: The KiCAD UI might be unresponsive at this point, as it’s waiting for Freeroute to finish running.
+Click the Freeroute button/tool entry. This should launch the usual Freeroute GUI, with your design already loaded. 
+
+NOTE: The KiCAD UI might be unresponsive at this point, as it’s waiting for Freeroute to finish running.
 
 Run your autoroute in Freeroute (Click the Autorouter button, wait, File -> Export Specctra Session File), then exit Freeroute.
 
