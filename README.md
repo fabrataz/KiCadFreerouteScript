@@ -23,9 +23,14 @@ On nightlies(Or 5.1 when it releases), you can also go into the Preferences and 
 Now, the workflow for using this:
 
 Export DSN (File -> Export -> Specctra DSN…) using the default filename for your PCB (board.kicad_pcb would be board.dsn, for example).
+
 Click the Freeroute button/tool entry. This should launch the usual Freeroute GUI, with your design already loaded. NOTE: The KiCAD UI might be unresponsive at this point, as it’s waiting for Freeroute to finish running.
+
 Run your autoroute in Freeroute (Click the Autorouter button, wait, File -> Export Specctra Session File), then exit Freeroute.
+
 Back in KiCAD, Import the session file (File -> Import -> Specctra Session…).
+
 Done!
-(This post has been mirrored into the repository at the bitbucket repository in the first link for anybody who might like to link to that instead.)
+
+(for the original post see the bitbucket link above)
 
