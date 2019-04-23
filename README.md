@@ -19,7 +19,9 @@ Place the freeroute.py file in ~/Library/Preferences/kicad/scripting/plugins
 Place FreeRouting.jar (I use this version 38) in ~/Library/Preferences/kicad
 
 In Pcbnew, under Tools -> External Plugins there should now be a Freeroute entry (If not, click the “Refresh Plugins” entry and try again).
-On nightlies(Or 5.1 when it releases), you can also go into the Preferences and under Action Plugins, you can set the plugin to show directly on the toolbar.
+
+On v5.1, you can also go into the KiCad->Preferences menu and under Action Plugins, you can set the plugin to show directly on the toolbar.
+
 Now, the workflow for using this:
 
 Export DSN (File -> Export -> Specctra DSN…) using the default filename for your PCB (board.kicad_pcb would be board.dsn, for example).
